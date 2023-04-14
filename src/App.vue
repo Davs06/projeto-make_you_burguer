@@ -16,4 +16,16 @@ export default {
 };
 </script>
 <style>
+.main-container{
+  margin: 50px;
+  min-height: 250px;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #222;
+}
+
 </style>
