@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  <Navbar :logo="logo_src" :alt="logo" />
   <router-view />
   <Footer />
 </template>
@@ -13,7 +13,22 @@ export default {
     Navbar,
     Footer,
   },
+  data() {
+    return {
+      logo_src: "/img/logo.png",
+      alt: "logo",
+    };
+  },
 };
 </script>
+
+
 <style>
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
 </style>
