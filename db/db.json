@@ -77,5 +77,41 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "Dss Tech",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "status": "Em produção",
+      "id": 1
+    },
+    {
+      "nome": "Davi Sousa Santos",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Salame",
+        "Tomate"
+      ],
+      "status": "Finalizado",
+      "id": 2
+    },
+    {
+      "nome": "test2",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola roxa",
+        "Pepino",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    }
+  ]
 }
