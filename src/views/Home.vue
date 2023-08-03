@@ -1,8 +1,8 @@
 <template>
-  <Banner/>
+  <Banner />
   <div class="main-container">
     <h1>Monte seu Hamburguere:</h1>
-    <BurguerForm/>
+    <BurguerForm />
   </div>
 </template>
 
@@ -10,12 +10,11 @@
 import Banner from "../components/Banner.vue";
 import BurguerForm from "../components/BurguerForm.vue";
 
-
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     Banner,
-    BurguerForm
-  }
-}
+    BurguerForm,
+  },
+};
 </script>
