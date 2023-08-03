@@ -101,12 +101,13 @@ export default {
                 body: dataJson
             });
             const res = await req.json();
+
             // colocar mensagem de sistema
             this.msg = `Pedido N° ${res.id} realizado com sucesso `
 
-
             // limpar msg
             setTimeout(()=> this.msg = "", 3000)
+            
             // limpar campos
             this.nome = "";
             this.carne = "";
